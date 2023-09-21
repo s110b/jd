@@ -12,6 +12,14 @@ jobs:
       deployments: write
     name: Deploy to Cloudflare Pages
     steps:
+      - name: block on run in progress
+        uses: softprops/turnstyle@v1
+        with:
+          same-branch-only: 'true'
+          poll-interval-seconds: 10
+          continue-after-seconds: 300
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Checkout
         uses: actions/checkout@v3
         with:
