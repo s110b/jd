@@ -57,7 +57,7 @@ jobs:
         apiToken: sgs661R3UiFDmpt3odP5kEO8HkTl4Io9NAJmjRyX
         accountId: 80d039f72d9b6bbdb8076a69c9a9e164
         projectName: jd # e.g. 'my-project'
-        directory: '.' # e.g. 'dist'
+        directory: '_site' # e.g. 'dist'
         gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
 
