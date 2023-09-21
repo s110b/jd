@@ -27,7 +27,7 @@ jobs:
         docker-compose up -d
 
     - name: Get Docker logs
-      run: docker exec $(docker ps -lq) ls -l /photo-stream
+      run: docker exec $(docker ps -lq) ls -l /photo-stream/_site
 
     - name: Copy _site directory and output its structure
       run: |
