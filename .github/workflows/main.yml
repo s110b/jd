@@ -43,6 +43,7 @@ jobs:
         echo "Getting Docker logs..."
         docker exec $(docker ps -lq) ls -l /photo-stream/_site
 
+
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
       with:
