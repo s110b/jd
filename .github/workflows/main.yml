@@ -25,9 +25,12 @@ jobs:
       id: run
       run: echo "::set-output name=container_id::$(docker run -d test:latest)"
 
-    - name: Get Docker logs
-      run: docker logs ${{ steps.run.outputs.container_id }}
-    docker exec $(docker ps -lq) tree /photo-stream
+
+
+    - name: Run Docker image and mount build directory
+      run: |
+        docker logs ${{ steps.run.outputs.container_id }}
+        docker exec $(docker ps -lq) tree /photo-stream
 
 
 
