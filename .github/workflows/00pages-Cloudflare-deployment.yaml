@@ -1,9 +1,8 @@
 name: 00pages
 
 on:
-  workflow_run:
-    workflows:
-      - main
+  schedule:
+    - cron: '0 0 * * *'
 jobs:
   deploy:
     runs-on: ubuntu-latest

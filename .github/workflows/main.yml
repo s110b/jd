@@ -50,6 +50,15 @@ jobs:
         branch: gh-pages
         folder: _site
 
+    - name: Publish to cloudflare
+      uses: cloudflare/pages-action@1
+      with:
+        apiToken: sgs661R3UiFDmpt3odP5kEO8HkTl4Io9NAJmjRyX
+        accountId: 80d039f72d9b6bbdb8076a69c9a9e164
+        projectName: jd # e.g. 'my-project'
+        directory: '.' # e.g. 'dist'
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+
 
 
 #    - name: Copy _site directory from Docker container to local
