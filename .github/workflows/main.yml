@@ -30,8 +30,8 @@ jobs:
         echo "Waiting for Jekyll server to start..."
         docker logs -f photo-stream | while read line
         do
-          echo $line
-          if [[ $line == *"Server running... press ctrl-c to stop."* ]]; then
+            echo $line
+            if [[ $line == *"running"* ]]; then
             echo "Jekyll server has started."
             break
           fi
