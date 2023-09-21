@@ -12,7 +12,7 @@ jobs:
       deployments: write
     name: Deploy to Cloudflare Pages
     steps:
-      - name: block on run in progress
+      - name: block on run in progress1
         uses: softprops/turnstyle@v1
         with:
           same-branch-only: 'true'
