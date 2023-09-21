@@ -18,29 +18,22 @@ jobs:
         sudo apt-get install -y tree
         tree ${{ github.workspace }}
 
-    - name: Set up Docker Buildx
-      uses: docker/setup-buildx-action@v1
-
     - name: Build Docker image
-      uses: docker/build-push-action@v2
-      with:
-        context: .
-        push: false
-        load: true
-        tags: test:latest
+      run: docker build -t test:latest .
+
+    - name: Run Docker container
+      id: run
+      run: echo "::set-output name=container_id::$(docker run -d test:latest)"
+
+    - name: Get Docker logs
+      run: docker logs ${{ steps.run.outputs.container_id }}
+    docker exec $(docker ps -lq) tree /photo-stream
 
 
 
-    - name: Run Docker image and mount build directory
-      run: |
-        docker run -d test:latest
-        docker exec $(docker ps -lq) tree /photo-stream
-
-
-
-    - name: Copy _site directory from Docker container to local
-      run: |
-        docker cp $(docker ps -lq):/_site ${{ github.workspace }}/_site
-
-    - name: Output directory structure after running image
-      run: tree ${{ github.workspace }}/_site
+#    - name: Copy _site directory from Docker container to local
+#      run: |
+#        docker cp $(docker ps -lq):/_site ${{ github.workspace }}/_site
+#
+#    - name: Output directory structure after running image
+#      run: tree ${{ github.workspace }}/_site
