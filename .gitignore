@@ -6,3 +6,7 @@ _site
 vendor
 .DS_Store
 .bundle
+.idea/deployment.xml
+.idea/jd.iml
+.idea/modules.xml
+.idea/vcs.xml
