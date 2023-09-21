@@ -29,13 +29,12 @@ jobs:
         load: true
         tags: test:latest
 
-    - name: Output directory structure after building image
-      run: tree ${{ github.workspace }}
+
 
     - name: Run Docker image and mount build directory
       run: |
         docker run -d test:latest
-        docker exec $(docker ps -lq) tree /
+        docker exec $(docker ps -lq) tree /photo-stream
 
 
 
