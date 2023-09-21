@@ -30,6 +30,12 @@ jobs:
         docker cp $(docker ps -lq):/photo-stream/_site .
         tree _site
 
+    - name: Deploy
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: _site
+
 
 
 #    - name: Copy _site directory from Docker container to local
