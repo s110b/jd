@@ -1,6 +1,9 @@
 name: 00pages
 
-on: [push]
+on:
+  workflow_run:
+    workflows:
+      - main
 jobs:
   deploy:
     runs-on: ubuntu-latest

@@ -1,4 +1,4 @@
-name: Build Docker Image and Push Files to GitHub
+name: main
 
 on:
   push:
