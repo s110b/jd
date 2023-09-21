@@ -26,6 +26,9 @@ jobs:
       run: |
         docker-compose up -d
 
+    - name: Output logs
+      run: docker logs photo-stream
+
     - name: Get Docker logs
       run: docker exec $(docker ps -lq) ls -l /photo-stream/_site
 
