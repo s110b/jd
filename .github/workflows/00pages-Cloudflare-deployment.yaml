@@ -1,0 +1,27 @@
+name: 00pages
+
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Deploy to Cloudflare Pages
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          ref: gh-pages
+
+      # Run your project's build step
+      # - name: Build
+      #   run: npm install && npm run build
+      - name: Publish
+        uses: cloudflare/pages-action@1
+        with:
+          apiToken: sgs661R3UiFDmpt3odP5kEO8HkTl4Io9NAJmjRyX
+          accountId: 80d039f72d9b6bbdb8076a69c9a9e164
+          projectName: jd # e.g. 'my-project'
+          directory: '.' # e.g. 'dist'
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
