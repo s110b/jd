@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <feed xmlns="http://www.w3.org/2005/Atom">
+    <generator uri="https://github.com/waschinski/photo-stream">Photo Stream</generator>
+    <link href="https://maxvoltar.photo/feed.xml" rel="self" type="application/atom+xml" />
+    <link href="https://maxvoltar.photo" rel="alternate" type="text/html"/>
+    <updated>2023-03-16T16:30:24+01:00</updated>
+    <id>2023-03-16T16:30:24+01:00</id>
+    <title type="html"><![CDATA[maxvoltar.photo]]></title>
+    <subtitle><![CDATA[@maxvoltar's minimalistic, self-hosted photo stream.]]></subtitle>
+    <author>
+      <name><![CDATA[Tim Van Damme]]></name>
+      <email>tim@maxvoltar.be</email>
+      <uri>https://maxvoltar.com</uri>
+    </author>
+    <entry>
+      <title type="html">n1172747</title>
+      <link href="https://maxvoltar.photo/n1172747/" rel="alternate" type="text/html" title="n1172747" />
+      <published></published>
+      <updated></updated>
+      <id>https://maxvoltar.photo/n1172747/</id>
+      <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/n1172747/"><img src="https://maxvoltar.photo/photos/large/n1172747-686656.png" alt="n1172747" /></a></figure>
+      ]]>
+    </content>
+    <author>
+      <name><![CDATA[Tim Van Damme]]></name>
+      <email>tim@maxvoltar.be</email>
+      <uri>https://maxvoltar.com</uri>
+    </author>
+    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/n1172747-686656.png" />
+      <media:content medium="image" url="https://maxvoltar.photo/photos/large/n1172747-686656.png" xmlns:media="http://search.yahoo.com/mrss/" />
+      </entry>
+      <entry>
+        <title type="html">test</title>
+        <link href="https://maxvoltar.photo/test/" rel="alternate" type="text/html" title="test" />
+        <published></published>
+        <updated></updated>
+        <id>https://maxvoltar.photo/test/</id>
+        <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/test/"><img src="https://maxvoltar.photo/photos/large/test-686656.webp" alt="test" /></a></figure>
+        ]]>
+      </content>
+      <author>
+        <name><![CDATA[Tim Van Damme]]></name>
+        <email>tim@maxvoltar.be</email>
+        <uri>https://maxvoltar.com</uri>
+      </author>
+      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/test-686656.webp" />
+        <media:content medium="image" url="https://maxvoltar.photo/photos/large/test-686656.webp" xmlns:media="http://search.yahoo.com/mrss/" />
+        </entry>
+        <entry>
+          <title type="html">carrie-cronan-veoOmmy9VH0-unsplash</title>
+          <link href="https://maxvoltar.photo/carrie-cronan-veoommy9vh0-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-veoOmmy9VH0-unsplash" />
+          <published></published>
+          <updated></updated>
+          <id>https://maxvoltar.photo/carrie-cronan-veoommy9vh0-unsplash/</id>
+          <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-veoommy9vh0-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-veoOmmy9VH0-unsplash-686656.jpg" alt="carrie-cronan-veoOmmy9VH0-unsplash" /></a></figure>
+          ]]>
+        </content>
+        <author>
+          <name><![CDATA[Tim Van Damme]]></name>
+          <email>tim@maxvoltar.be</email>
+          <uri>https://maxvoltar.com</uri>
+        </author>
+        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-veoOmmy9VH0-unsplash-686656.jpg" />
+          <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-veoOmmy9VH0-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+          </entry>
+          <entry>
+            <title type="html">carrie-cronan-uw9aaHMWp5k-unsplash</title>
+            <link href="https://maxvoltar.photo/carrie-cronan-uw9aahmwp5k-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-uw9aaHMWp5k-unsplash" />
+            <published></published>
+            <updated></updated>
+            <id>https://maxvoltar.photo/carrie-cronan-uw9aahmwp5k-unsplash/</id>
+            <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-uw9aahmwp5k-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-uw9aaHMWp5k-unsplash-686656.jpg" alt="carrie-cronan-uw9aaHMWp5k-unsplash" /></a></figure>
+            ]]>
+          </content>
+          <author>
+            <name><![CDATA[Tim Van Damme]]></name>
+            <email>tim@maxvoltar.be</email>
+            <uri>https://maxvoltar.com</uri>
+          </author>
+          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-uw9aaHMWp5k-unsplash-686656.jpg" />
+            <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-uw9aaHMWp5k-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+            </entry>
+            <entry>
+              <title type="html">carrie-cronan-t4lmDpX1fbY-unsplash</title>
+              <link href="https://maxvoltar.photo/carrie-cronan-t4lmdpx1fby-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-t4lmDpX1fbY-unsplash" />
+              <published></published>
+              <updated></updated>
+              <id>https://maxvoltar.photo/carrie-cronan-t4lmdpx1fby-unsplash/</id>
+              <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-t4lmdpx1fby-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-t4lmDpX1fbY-unsplash-686656.jpg" alt="carrie-cronan-t4lmDpX1fbY-unsplash" /></a></figure>
+              ]]>
+            </content>
+            <author>
+              <name><![CDATA[Tim Van Damme]]></name>
+              <email>tim@maxvoltar.be</email>
+              <uri>https://maxvoltar.com</uri>
+            </author>
+            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-t4lmDpX1fbY-unsplash-686656.jpg" />
+              <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-t4lmDpX1fbY-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+              </entry>
+              <entry>
+                <title type="html">carrie-cronan-RTGPNTdA13M-unsplash</title>
+                <link href="https://maxvoltar.photo/carrie-cronan-rtgpntda13m-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-RTGPNTdA13M-unsplash" />
+                <published></published>
+                <updated></updated>
+                <id>https://maxvoltar.photo/carrie-cronan-rtgpntda13m-unsplash/</id>
+                <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-rtgpntda13m-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-RTGPNTdA13M-unsplash-686656.jpg" alt="carrie-cronan-RTGPNTdA13M-unsplash" /></a></figure>
+                ]]>
+              </content>
+              <author>
+                <name><![CDATA[Tim Van Damme]]></name>
+                <email>tim@maxvoltar.be</email>
+                <uri>https://maxvoltar.com</uri>
+              </author>
+              <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-RTGPNTdA13M-unsplash-686656.jpg" />
+                <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-RTGPNTdA13M-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                </entry>
+                <entry>
+                  <title type="html">carrie-cronan-qvk_MpO4Bfk-unsplash</title>
+                  <link href="https://maxvoltar.photo/carrie-cronan-qvk-mpo4bfk-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-qvk_MpO4Bfk-unsplash" />
+                  <published></published>
+                  <updated></updated>
+                  <id>https://maxvoltar.photo/carrie-cronan-qvk-mpo4bfk-unsplash/</id>
+                  <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-qvk-mpo4bfk-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-qvk_MpO4Bfk-unsplash-686656.jpg" alt="carrie-cronan-qvk_MpO4Bfk-unsplash" /></a></figure>
+                  ]]>
+                </content>
+                <author>
+                  <name><![CDATA[Tim Van Damme]]></name>
+                  <email>tim@maxvoltar.be</email>
+                  <uri>https://maxvoltar.com</uri>
+                </author>
+                <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-qvk_MpO4Bfk-unsplash-686656.jpg" />
+                  <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-qvk_MpO4Bfk-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                  </entry>
+                  <entry>
+                    <title type="html">carrie-cronan-iqN7Auqq72I-unsplash</title>
+                    <link href="https://maxvoltar.photo/carrie-cronan-iqn7auqq72i-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-iqN7Auqq72I-unsplash" />
+                    <published></published>
+                    <updated></updated>
+                    <id>https://maxvoltar.photo/carrie-cronan-iqn7auqq72i-unsplash/</id>
+                    <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-iqn7auqq72i-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-iqN7Auqq72I-unsplash-686656.jpg" alt="carrie-cronan-iqN7Auqq72I-unsplash" /></a></figure>
+                    ]]>
+                  </content>
+                  <author>
+                    <name><![CDATA[Tim Van Damme]]></name>
+                    <email>tim@maxvoltar.be</email>
+                    <uri>https://maxvoltar.com</uri>
+                  </author>
+                  <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-iqN7Auqq72I-unsplash-686656.jpg" />
+                    <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-iqN7Auqq72I-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                    </entry>
+                    <entry>
+                      <title type="html">carrie-cronan-gxUqWTqp0n4-unsplash</title>
+                      <link href="https://maxvoltar.photo/carrie-cronan-gxuqwtqp0n4-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-gxUqWTqp0n4-unsplash" />
+                      <published></published>
+                      <updated></updated>
+                      <id>https://maxvoltar.photo/carrie-cronan-gxuqwtqp0n4-unsplash/</id>
+                      <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-gxuqwtqp0n4-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-gxUqWTqp0n4-unsplash-686656.jpg" alt="carrie-cronan-gxUqWTqp0n4-unsplash" /></a></figure>
+                      ]]>
+                    </content>
+                    <author>
+                      <name><![CDATA[Tim Van Damme]]></name>
+                      <email>tim@maxvoltar.be</email>
+                      <uri>https://maxvoltar.com</uri>
+                    </author>
+                    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-gxUqWTqp0n4-unsplash-686656.jpg" />
+                      <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-gxUqWTqp0n4-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                      </entry>
+                      <entry>
+                        <title type="html">carrie-cronan-XNJdMuqtk70-unsplash</title>
+                        <link href="https://maxvoltar.photo/carrie-cronan-xnjdmuqtk70-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-XNJdMuqtk70-unsplash" />
+                        <published></published>
+                        <updated></updated>
+                        <id>https://maxvoltar.photo/carrie-cronan-xnjdmuqtk70-unsplash/</id>
+                        <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-xnjdmuqtk70-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-XNJdMuqtk70-unsplash-686656.jpg" alt="carrie-cronan-XNJdMuqtk70-unsplash" /></a></figure>
+                        ]]>
+                      </content>
+                      <author>
+                        <name><![CDATA[Tim Van Damme]]></name>
+                        <email>tim@maxvoltar.be</email>
+                        <uri>https://maxvoltar.com</uri>
+                      </author>
+                      <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-XNJdMuqtk70-unsplash-686656.jpg" />
+                        <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-XNJdMuqtk70-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                        </entry>
+                        <entry>
+                          <title type="html">carrie-cronan-LF9lu8XrWww-unsplash</title>
+                          <link href="https://maxvoltar.photo/carrie-cronan-lf9lu8xrwww-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-LF9lu8XrWww-unsplash" />
+                          <published></published>
+                          <updated></updated>
+                          <id>https://maxvoltar.photo/carrie-cronan-lf9lu8xrwww-unsplash/</id>
+                          <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-lf9lu8xrwww-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-LF9lu8XrWww-unsplash-686656.jpg" alt="carrie-cronan-LF9lu8XrWww-unsplash" /></a></figure>
+                          ]]>
+                        </content>
+                        <author>
+                          <name><![CDATA[Tim Van Damme]]></name>
+                          <email>tim@maxvoltar.be</email>
+                          <uri>https://maxvoltar.com</uri>
+                        </author>
+                        <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-LF9lu8XrWww-unsplash-686656.jpg" />
+                          <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-LF9lu8XrWww-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                          </entry>
+                          <entry>
+                            <title type="html">carrie-cronan-0F3NydDW98Q-unsplash</title>
+                            <link href="https://maxvoltar.photo/carrie-cronan-0f3nyddw98q-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-0F3NydDW98Q-unsplash" />
+                            <published></published>
+                            <updated></updated>
+                            <id>https://maxvoltar.photo/carrie-cronan-0f3nyddw98q-unsplash/</id>
+                            <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-0f3nyddw98q-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-0F3NydDW98Q-unsplash-686656.jpg" alt="carrie-cronan-0F3NydDW98Q-unsplash" /></a></figure>
+                            ]]>
+                          </content>
+                          <author>
+                            <name><![CDATA[Tim Van Damme]]></name>
+                            <email>tim@maxvoltar.be</email>
+                            <uri>https://maxvoltar.com</uri>
+                          </author>
+                          <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-0F3NydDW98Q-unsplash-686656.jpg" />
+                            <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-0F3NydDW98Q-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                            </entry>
+                            <entry>
+                              <title type="html">carrie-cronan-WJXrmlm3jmM-unsplash</title>
+                              <link href="https://maxvoltar.photo/carrie-cronan-wjxrmlm3jmm-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-WJXrmlm3jmM-unsplash" />
+                              <published></published>
+                              <updated></updated>
+                              <id>https://maxvoltar.photo/carrie-cronan-wjxrmlm3jmm-unsplash/</id>
+                              <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-wjxrmlm3jmm-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-WJXrmlm3jmM-unsplash-686656.jpg" alt="carrie-cronan-WJXrmlm3jmM-unsplash" /></a></figure>
+                              ]]>
+                            </content>
+                            <author>
+                              <name><![CDATA[Tim Van Damme]]></name>
+                              <email>tim@maxvoltar.be</email>
+                              <uri>https://maxvoltar.com</uri>
+                            </author>
+                            <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-WJXrmlm3jmM-unsplash-686656.jpg" />
+                              <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-WJXrmlm3jmM-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                              </entry>
+                              <entry>
+                                <title type="html">carrie-cronan-MLvJdczrwVw-unsplash</title>
+                                <link href="https://maxvoltar.photo/carrie-cronan-mlvjdczrwvw-unsplash/" rel="alternate" type="text/html" title="carrie-cronan-MLvJdczrwVw-unsplash" />
+                                <published></published>
+                                <updated></updated>
+                                <id>https://maxvoltar.photo/carrie-cronan-mlvjdczrwvw-unsplash/</id>
+                                <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/carrie-cronan-mlvjdczrwvw-unsplash/"><img src="https://maxvoltar.photo/photos/large/carrie-cronan-MLvJdczrwVw-unsplash-686656.jpg" alt="carrie-cronan-MLvJdczrwVw-unsplash" /></a></figure>
+                                ]]>
+                              </content>
+                              <author>
+                                <name><![CDATA[Tim Van Damme]]></name>
+                                <email>tim@maxvoltar.be</email>
+                                <uri>https://maxvoltar.com</uri>
+                              </author>
+                              <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/carrie-cronan-MLvJdczrwVw-unsplash-686656.jpg" />
+                                <media:content medium="image" url="https://maxvoltar.photo/photos/large/carrie-cronan-MLvJdczrwVw-unsplash-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                                </entry>
+                                <entry>
+                                  <title type="html">canon-ixus</title>
+                                  <link href="https://maxvoltar.photo/canon-ixus/" rel="alternate" type="text/html" title="canon-ixus" />
+                                  <published></published>
+                                  <updated></updated>
+                                  <id>https://maxvoltar.photo/canon-ixus/</id>
+                                  <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/canon-ixus/"><img src="https://maxvoltar.photo/photos/large/canon-ixus-686656.jpg" alt="canon-ixus" /></a></figure>
+                                  ]]>
+                                </content>
+                                <author>
+                                  <name><![CDATA[Tim Van Damme]]></name>
+                                  <email>tim@maxvoltar.be</email>
+                                  <uri>https://maxvoltar.com</uri>
+                                </author>
+                                <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/canon-ixus-686656.jpg" />
+                                  <media:content medium="image" url="https://maxvoltar.photo/photos/large/canon-ixus-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                                  </entry>
+                                  <entry>
+                                    <title type="html">Fujifilm_FinePix6900ZOOM</title>
+                                    <link href="https://maxvoltar.photo/fujifilm-finepix6900zoom/" rel="alternate" type="text/html" title="Fujifilm_FinePix6900ZOOM" />
+                                    <published></published>
+                                    <updated></updated>
+                                    <id>https://maxvoltar.photo/fujifilm-finepix6900zoom/</id>
+                                    <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/fujifilm-finepix6900zoom/"><img src="https://maxvoltar.photo/photos/large/Fujifilm_FinePix6900ZOOM-686656.jpg" alt="Fujifilm_FinePix6900ZOOM" /></a></figure>
+                                    ]]>
+                                  </content>
+                                  <author>
+                                    <name><![CDATA[Tim Van Damme]]></name>
+                                    <email>tim@maxvoltar.be</email>
+                                    <uri>https://maxvoltar.com</uri>
+                                  </author>
+                                  <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/Fujifilm_FinePix6900ZOOM-686656.jpg" />
+                                    <media:content medium="image" url="https://maxvoltar.photo/photos/large/Fujifilm_FinePix6900ZOOM-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                                    </entry>
+                                  </feed>
