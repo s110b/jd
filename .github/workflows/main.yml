@@ -22,13 +22,13 @@ jobs:
         sudo apt-get install -y tree
         tree ${{ github.workspace }}
 
+# 必须等待jekyll编译完成，服务启动成功，才能拷贝文件。否则拷贝的是个空目录。
     - name: Wait for Jekyll server to start
       run: |
         echo "Starting Jekyll server..."
         docker-compose up -d
         echo "Waiting for Jekyll server to start..."
-        container_id=$(docker ps -q --filter ancestor=photo-stream)
-        docker logs -f $container_id | while read line
+        docker logs -f photo-stream | while read line
         do
           echo $line
           if [[ $line == *"Server running... press ctrl-c to stop."* ]]; then
