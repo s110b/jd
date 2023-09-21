@@ -18,19 +18,12 @@ jobs:
         sudo apt-get install -y tree
         tree ${{ github.workspace }}
 
-    - name: Build Docker image
-      run: docker build -t test:latest .
-
-    - name: Run Docker container
-      id: run
-      run: echo "::set-output name=container_id::$(docker run -d test:latest)"
-
-
-
-    - name: Run Docker image and mount build directory
+    - name: Build and run with Docker Compose
       run: |
-        docker logs ${{ steps.run.outputs.container_id }}
-        docker exec $(docker ps -lq) tree /photo-stream
+        docker-compose up -d
+
+    - name: Get Docker logs
+      run: docker exec $(docker ps -lq) tree /photo-stream
 
 
 
