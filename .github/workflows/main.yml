@@ -23,7 +23,7 @@ jobs:
         docker-compose up -d
 
     - name: Get Docker logs
-      docker exec $(docker ps -lq) ls -l /photo-stream
+      run: docker exec $(docker ps -lq) ls -l /photo-stream
 
 
 
