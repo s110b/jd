@@ -22,12 +22,20 @@ jobs:
         sudo apt-get install -y tree
         tree ${{ github.workspace }}
 
-    - name: Build and run with Docker Compose
+    - name: Wait for Jekyll server to start
       run: |
+        echo "Starting Jekyll server..."
         docker-compose up -d
-
-    - name: Output logs
-      run: docker logs photo-stream
+        echo "Waiting for Jekyll server to start..."
+        container_id=$(docker ps -q --filter ancestor=photo-stream)
+        docker logs -f $container_id | while read line
+        do
+          echo $line
+          if [[ $line == *"Server running... press ctrl-c to stop."* ]]; then
+            echo "Jekyll server has started."
+            break
+          fi
+        done
 
     - name: Get Docker logs
       run: docker exec $(docker ps -lq) ls -l /photo-stream/_site
