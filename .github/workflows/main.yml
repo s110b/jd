@@ -34,7 +34,13 @@ jobs:
 
     - name: Run Docker image and mount build directory
       run: |
-        docker run -v ${{ github.workspace }}/_site:/_site test:latest
+        docker run -d -v ${{ github.workspace }}/_site:/_site test:latest
+        docker exec $(docker ps -lq) ls /_site
+
+
+    - name: Copy _site directory from Docker container to local
+      run: |
+        docker cp $(docker ps -lq):/_site ${{ github.workspace }}/_site
 
     - name: Output directory structure after running image
       run: tree ${{ github.workspace }}/_site
