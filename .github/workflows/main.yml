@@ -27,7 +27,7 @@ jobs:
 
     - name: Copy _site directory and output its structure
       run: |
-        docker cp $(docker ps -lq):/_site .
+        docker cp $(docker ps -lq):/photo-stream/_site .
         tree _site
 
 
