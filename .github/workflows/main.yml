@@ -23,27 +23,25 @@ jobs:
         tree ${{ github.workspace }}
 
 # 必须等待jekyll编译完成，服务启动成功，才能拷贝文件。否则拷贝的是个空目录。
-    - name: Wait for Jekyll server to start
+    - name: Start server, wait, copy directory, get logs
       run: |
         echo "Starting Jekyll server..."
         docker-compose up -d
         echo "Waiting for Jekyll server to start..."
         docker logs -f photo-stream | while read line
         do
-            echo $line
-            if [[ $line == *"running"* ]]; then
-            echo "Jekyll server has started."
-            break
-          fi
+          echo $line
+          if [[ $line == *"running"* ]]; then
+          echo "Jekyll server has started."
+          echo "Copying _site directory and outputting its structure..."
+          docker cp $(docker ps -lq):/photo-stream/_site .
+          tree _site
+          pkill -P $$ docker
+          break
+        fi
         done
-
-    - name: Get Docker logs
-      run: docker exec $(docker ps -lq) ls -l /photo-stream/_site
-
-    - name: Copy _site directory and output its structure
-      run: |
-        docker cp $(docker ps -lq):/photo-stream/_site .
-        tree _site
+        echo "Getting Docker logs..."
+        docker exec $(docker ps -lq) ls -l /photo-stream/_site
 
     - name: Deploy
       uses: JamesIves/github-pages-deploy-action@v4
