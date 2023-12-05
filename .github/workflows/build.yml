@@ -1,4 +1,4 @@
-name: Build Jekyll Site1
+name: Build Jekyll Site
 
 on:
   push:
