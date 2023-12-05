@@ -9,7 +9,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: ghcr.io/s110b/jekyll:latest
+    container: waschinski/photo-stream:latest
+
 
     steps:
     - uses: actions/checkout@v4
