@@ -3,8 +3,8 @@
     <generator uri="https://github.com/waschinski/photo-stream">Photo Stream</generator>
     <link href="https://maxvoltar.photo/feed.xml" rel="self" type="application/atom+xml" />
     <link href="https://maxvoltar.photo" rel="alternate" type="text/html"/>
-    <updated>2023-12-05T09:15:16+00:00</updated>
-    <id>2023-12-05T09:15:16+00:00</id>
+    <updated>2023-12-05T09:23:24+00:00</updated>
+    <id>2023-12-05T09:23:24+00:00</id>
     <title type="html"><![CDATA[maxvoltar.photo]]></title>
     <subtitle><![CDATA[@maxvoltar's minimalistic, self-hosted photo stream.]]></subtitle>
     <author>
@@ -115,12 +115,12 @@
                 <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8644-686656.png" xmlns:media="http://search.yahoo.com/mrss/" />
                 </entry>
                 <entry>
-                  <title type="html">IMG_8797</title>
-                  <link href="https://maxvoltar.photo/img-8797/" rel="alternate" type="text/html" title="IMG_8797" />
+                  <title type="html">IMG_8792</title>
+                  <link href="https://maxvoltar.photo/img-8792/" rel="alternate" type="text/html" title="IMG_8792" />
                   <published></published>
                   <updated></updated>
-                  <id>https://maxvoltar.photo/img-8797/</id>
-                  <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8797/"><img src="https://maxvoltar.photo/photos/large/IMG_8797-686656.jpg" alt="IMG_8797" /></a></figure>
+                  <id>https://maxvoltar.photo/img-8792/</id>
+                  <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8792/"><img src="https://maxvoltar.photo/photos/large/IMG_8792-686656.jpg" alt="IMG_8792" /></a></figure>
                   ]]>
                 </content>
                 <author>
@@ -128,16 +128,16 @@
                   <email>tim@maxvoltar.be</email>
                   <uri>https://maxvoltar.com</uri>
                 </author>
-                <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8797-686656.jpg" />
-                  <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8797-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8792-686656.jpg" />
+                  <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8792-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
                   </entry>
                   <entry>
-                    <title type="html">IMG_8796</title>
-                    <link href="https://maxvoltar.photo/img-8796/" rel="alternate" type="text/html" title="IMG_8796" />
+                    <title type="html">IMG_8791</title>
+                    <link href="https://maxvoltar.photo/img-8791/" rel="alternate" type="text/html" title="IMG_8791" />
                     <published></published>
                     <updated></updated>
-                    <id>https://maxvoltar.photo/img-8796/</id>
-                    <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8796/"><img src="https://maxvoltar.photo/photos/large/IMG_8796-686656.jpg" alt="IMG_8796" /></a></figure>
+                    <id>https://maxvoltar.photo/img-8791/</id>
+                    <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8791/"><img src="https://maxvoltar.photo/photos/large/IMG_8791-686656.jpg" alt="IMG_8791" /></a></figure>
                     ]]>
                   </content>
                   <author>
@@ -145,16 +145,16 @@
                     <email>tim@maxvoltar.be</email>
                     <uri>https://maxvoltar.com</uri>
                   </author>
-                  <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8796-686656.jpg" />
-                    <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8796-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
+                  <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8791-686656.jpg" />
+                    <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8791-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
                     </entry>
                     <entry>
-                      <title type="html">微信图片_20230315154233</title>
-                      <link href="https://maxvoltar.photo/微信图片-20230315154233/" rel="alternate" type="text/html" title="微信图片_20230315154233" />
+                      <title type="html">IMG_8794</title>
+                      <link href="https://maxvoltar.photo/img-8794/" rel="alternate" type="text/html" title="IMG_8794" />
                       <published></published>
                       <updated></updated>
-                      <id>https://maxvoltar.photo/微信图片-20230315154233/</id>
-                      <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/微信图片-20230315154233/"><img src="https://maxvoltar.photo/photos/large/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230315154233-686656.png" alt="微信图片_20230315154233" /></a></figure>
+                      <id>https://maxvoltar.photo/img-8794/</id>
+                      <content type="html"><![CDATA[<figure><a href="https://maxvoltar.photo/img-8794/"><img src="https://maxvoltar.photo/photos/large/IMG_8794-686656.jpg" alt="IMG_8794" /></a></figure>
                       ]]>
                     </content>
                     <author>
@@ -162,8 +162,8 @@
                       <email>tim@maxvoltar.be</email>
                       <uri>https://maxvoltar.com</uri>
                     </author>
-                    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230315154233-686656.png" />
-                      <media:content medium="image" url="https://maxvoltar.photo/photos/large/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20230315154233-686656.png" xmlns:media="http://search.yahoo.com/mrss/" />
+                    <media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://maxvoltar.photo/photos/large/IMG_8794-686656.jpg" />
+                      <media:content medium="image" url="https://maxvoltar.photo/photos/large/IMG_8794-686656.jpg" xmlns:media="http://search.yahoo.com/mrss/" />
                       </entry>
                       <entry>
                         <title type="html">IMG_8789</title>
