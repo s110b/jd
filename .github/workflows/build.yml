@@ -16,10 +16,7 @@ jobs:
     
 
 
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1.2' # Jekyll 目前与 Ruby 2.7 兼容
+
 
     - name: Build Jekyll site
       run: |
